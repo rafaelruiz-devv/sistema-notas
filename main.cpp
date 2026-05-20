@@ -59,5 +59,20 @@ int main()
         cout << "  " << i + 1 << ". " << nomes[i] << " - Media: " << fixed << setprecision(2) << media[i] << endl;
     }
 
+    cout << "\n=== RELATÓRIO ===" << endl;
+    int aprovados = 0, recuperação = 0, reprovados = 0;
+
+    for (int i = 0; i < qtdAlunos; i++){
+        cout << nomes[i] << " -Media: " << media[i] << " - ";
+        if (media[7] >= 7){
+            cout << "Aprovado" << endl;
+            aprovados++;
+        }else if (media[i] >= 5){
+            cout << "Recuperação" << endl;
+            recuperação++;
+        }
+    }
+
+    cout << "\nResumo: " << aprovados << "aprovados, " << recuperação << "Em recuperação, " << reprovados << "Reprovados. " << endl;
     return 0;
 }
