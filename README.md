@@ -1,4 +1,4 @@
-# Sistema de Notas v4.0
+# Sistema de Notas v4.1
 
 Sistema de Gerenciamento De notas desenvolvido durante o curso Técnico em 
 Desenvolvimento De Sistemas - SENAI-SP
@@ -11,6 +11,7 @@ Desenvolvimento De Sistemas - SENAI-SP
 - Classificação : Aprovado, Recuperação, ou Reprvoado
 - Relatório salvo em arquivo.txt
 - Leitura de relatório salvo
+- Menu "Sobre o sistema"
 
 ## COMO USAR
 
