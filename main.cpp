@@ -49,7 +49,7 @@ int main()
         return 0;
     }
 
-    // === IMPLEMENTAÇÃO DA TAREFA 1: SOBRE O SISTEMA ===
+   // === IMPLEMENTAÇÃO DA TAREFA 1: SOBRE O SISTEMA ===
     if (opcaoInicial == 3)
     {
         cout << "\n=== SOBRE ===" << endl;
@@ -58,7 +58,12 @@ int main()
         cout << "Turma: LOPAL 2026 - SENAI-SP" << endl;
         
         cout << "\nPressione Enter para voltar ao menu inicial...";
-        cin.ignore();
+        string pausa;
+        cin.ignore(); 
+        getline(cin, pausa); 
+         
+        return main(); 
+    }
     
     do
     {
@@ -174,4 +179,4 @@ int main()
 
     return 0;
 }
- }
+ 
